@@ -4,7 +4,7 @@ const Series = ({Animes}) => {
   return (
         <div className='New_main'>
             {Animes.map((Anime,index)=>{
-            const {Name,catogari,rating,info,image} = Anime
+            const {Name,rating,info,image} = Anime
             return(
                 <div className='container' key={index}>
                     <div className='img_container'>
